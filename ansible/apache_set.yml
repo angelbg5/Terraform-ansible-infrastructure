@@ -1,0 +1,24 @@
+- name: Configurar Servidor Apache en Azure
+  hosts: server
+  become: true
+  tasks:
+    - name: Actualizar caché de paquetes
+      apt:
+        update_cache: yes
+
+    - name: Instalar Apache
+      apt:
+        name: apache2
+        state: present
+
+    - name: Habilitar y arrancar Apache
+      systemd:
+        name: apache2
+        enabled: yes
+        state: started
+
+    - name: Crear página web de prueba
+      copy:
+        dest: /var/www/html/index.html
+        content: |
+          <html><body><h1>Servidor Apache desplegado con Ansible </h1></body></html>
