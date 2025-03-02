@@ -1,6 +1,6 @@
 # Terraform-ansible-infrastructure
 
-Este proyecto despliega una infraestructura utilizando **Terraform** y configura un servidor **Apache** en una de las máquinas provisiónadas con **Ansible**. El objetivo es mostrar cómo automatizar el aprovisionamiento de servidores y su configuración de manera controlada.
+Este proyecto despliega una infraestructura utilizando **Terraform** y configura un servidor **Apache** en una de las máquinas provisionadas con **Ansible**. El objetivo es mostrar cómo automatizar el aprovisionamiento de servidores y su configuración de manera controlada.
 
 ## Esquema de la Infraestructura
 
