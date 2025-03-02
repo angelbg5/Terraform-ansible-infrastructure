@@ -43,4 +43,4 @@ Al usar ambos, puedes asegurarte de que no solo creas la infraestructura de mane
 
 ------------
 
-Este proyecto fue desarrollado por **Ángel Barahona García**. Puedes conectar conmigo a través de https://www.linkedin.com/in/angelbarahonagarc%C3%ADa
+Este proyecto fue desarrollado por **Ángel Barahona García**. Puedes conectar conmigo a través de www.linkedin.com/in/angelbarahonagarcía
